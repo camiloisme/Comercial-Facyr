@@ -55,18 +55,31 @@ header {
     max-width: 8rem;
     padding: 1rem;
 }
+.carrusel{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.carrusel img{
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+}
 main {
     max-width: 80rem;
     box-shadow: 0 0 10px;
     border-radius: 15px;
     margin: 8rem auto 2rem;
     padding: 2rem;
+    margin-top: 1rem;
 }
 
 .logo {
     max-width: 15rem;
 }
-
 .nav ul {
     display: flex;
     gap: 5rem;
@@ -94,51 +107,89 @@ h1 {
     letter-spacing: 5px;
     font-weight: bold;
     text-align: center;
+    color: rgb(51, 51, 51)
 }
 
 h2 {
     font-size: 3rem;
+    color: rgb(22, 22, 22);
 }
 
 p {
+    padding-top: 5rem;
     font-size: 2rem;
     text-align: justify;
+    color: rgb(22,22,22);
 }
-
 .mejores-marcas {
     display: flex;
     padding: 3rem;
     gap: 3rem;
 }
-
-.texto-mejores-marcas {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    text-align: center;
-}
-
-.profesional {
-    display: flex;
-    padding: 3rem;
-    align-items: center;
-    gap: 3rem;
-}
-
-.hombre {
-    max-width: 35rem;
-}
-
-.historia {
-    display: flex;
-    padding: 3rem;
-    gap: 4rem;
-    align-items: center;
-}
-
-.cuarenta {
+.mujer{
     max-width: 30rem;
-
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+.estoes{
+    display: flex;
+    margin-left: 10rem;
+}
+span{
+    color: #ea1f25;
+}
+.parrafo{
+    text-align: justify;
+    justify-content:center;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+.iconos{
+    display: flex;
+    gap: 2rem;
+}
+.iconos img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.logos{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25rem;
+    margin-left: 10px;
+}
+.logos img{
+    max-width: 100px;
+    opacity: 0.9;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 10rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+.texto h3{
+    color: rgb(22,22,22);
+    letter-spacing: 3px;
+}
+.buje{
+    margin-left: 1rem;
+    margin-right: 6rem;
+}
+.manguera{
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.soporte{
+    margin-right: 10rem;
+    margin-left: 12rem;
 }
 .imagen-footer{
     display: flex;
