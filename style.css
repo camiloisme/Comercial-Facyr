@@ -195,12 +195,106 @@ span{
     display: flex;
     height: 7rem;
     justify-content: center;
-    background-color: #e0e0e0;
+    background-color: #dfdfdf;
     align-items: center;
     text-align: center;
 }
 .imagen-footer img{
     max-width: 20rem;
+}
+.foot{
+    display: flex;
+    padding: 4rem;
+    gap: 6rem;
+    background-color: #d4d4d4;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-left h3{
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 3rem;
+    font-weight: lighter;
+    color: rgb(31, 31, 31);
+}
+.suscribe{
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: rgb(14, 14, 126);
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.suscribe:hover{
+    background-color: rgb(75, 75, 233);
+    transform: scale(1.1);
+}
+.input{
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+}
+.newsletter{
+    display: flex;
+    gap: .5rem;
+}
+.logo-rs{
+    display: flex;
+    gap: 3rem;
+}
+.logo-rs a i{
+    font-size: 2rem;
+    color: #040279;
+}
+.logo-rs a:hover{
+    transform: scale(1.1);
+}
+.copy{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: rgb(31, 31, 31);
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-right ul{
+    display: flex;
+    gap: 3rem;
+}
+.footer-right ul li{
+    list-style: none;
+}
+.footer-right ul a{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+.footer-right ul li:hover{
+    transform: scale(1.1);
+}
+.map-container iframe{
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    border: 0;
+}
+.wsp-flota{
+    position: fixed;
+    z-index: 1000;  
+    bottom: 50px;
+    height: 80px;
+    width: auto;
+    right: 20px;
+    display: flex;
+    background-color: transparent;    
+}
+.wsp-flota img{
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 @media (max-width: 768px){
 
@@ -210,5 +304,6 @@ span{
     .logo{
         max-width: 10rem;
     }
+    
     
 }
